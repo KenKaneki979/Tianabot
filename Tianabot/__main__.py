@@ -251,7 +251,7 @@ def start(update: Update, context: CallbackContext):
                     sql.num_chats()),
                 reply_markup=InlineKeyboardMarkup(
                  [
-                  [InlineKeyboardButton(text="📄 Source", callback_data="tiana_source"), 
+                  [InlineKeyboardButton(text="📄 Repo", url="https://t.me/KaNeKi354_bot"),
                    InlineKeyboardButton(text="🫂 Support", url=f"https://t.me/{SUPPORT_CHAT}")]
                  ]
               ),
@@ -404,7 +404,7 @@ def tiana_callback_handler(update, context):
 Cʟɪᴄᴋ  Bᴇʟᴏᴡ  Bᴜᴛᴛᴏɴ  Tᴏ  Aᴅᴅ  Bᴏᴛ  Iɴ  Yᴏᴜʀ  Gʀᴏᴜᴘ. Bᴀsɪᴄ  Tᴏᴜʀ  Sᴛᴀʀᴛᴇᴅ  Tᴏ  Kɴᴏᴡ  Aʙᴏᴜᴛ  Hᴏᴡ  Tᴏ  Usᴇ  Mᴇ*""",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
-              [[InlineKeyboardButton(text="𝚂𝙴𝚃-𝚄𝙿 𝚃𝚄𝚃𝙾𝚁𝙸𝙰𝙻 🎥", url="https://t.me/anime8788"),
+              [[InlineKeyboardButton(text="𝚂𝙴𝚃-𝚄𝙿 𝚃𝚄𝚃𝙾𝚁𝙸𝙰𝙻 🎥", callback_data="tiana_vida")],
                [InlineKeyboardButton(text="➕️ 𝚂𝚄𝙼𝙼𝙾𝙽 𝙼𝙴 ➕️", url="https://t.me/{BOT_USERNAME}?startgroup=true")],       
                 [InlineKeyboardButton(text="🔙 𝙱𝙰𝙲𝙺", callback_data="tiana_"),
                  InlineKeyboardButton(text="➡️", callback_data="tiana_helpa")]
