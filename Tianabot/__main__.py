@@ -251,8 +251,8 @@ def start(update: Update, context: CallbackContext):
                     sql.num_chats()),
                 reply_markup=InlineKeyboardMarkup(
                  [
-                  [InlineKeyboardButton(text="🌖 𝙼𝙾𝙾𝙽 𝙱𝚁𝙴𝙰𝚃𝙷𝙸𝙽𝙶 𝙷𝙰𝚂𝙷𝙸𝚁𝙰", url="https://t.me/EagleEye0101"),
-                   InlineKeyboardButton(text="☀️ 𝚂𝚄𝙽 𝙱𝚁𝙴𝙰𝚃𝙷𝙸𝙽𝙶 𝙷𝙰𝚂𝙷𝙸𝚁𝙰", url="https://t.me/KaNeKi354_bot"),
+                  [InlineKeyboardButton(text="📄 Source", callback_data="tiana_source"), 
+                   InlineKeyboardButton(text="🫂 Support", url=f"https://t.me/{SUPPORT_CHAT}")]
                  ]
               ),
                 parse_mode=ParseMode.MARKDOWN,              
