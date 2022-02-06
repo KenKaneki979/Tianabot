@@ -90,23 +90,23 @@ PM_START_TEXT = """
 × *Uᴘᴛɪᴍᴇ:* `{}`
 × `{}` *Uꜱᴇʀ, Aᴄʀᴏꜱꜱ* `{}` *Cʜᴀᴛꜱ.*
 ───────────────────────
-× *Pᴏᴡᴇʀᴇᴅ Bʏ: Tᴇᴀᴍ Tɪᴀɴᴀ!*
+× *Pᴏᴡᴇʀᴇᴅ Bʏ: @KaNeKi354_bot!*
 ───────────────────────"""
 
 buttons = [
     [
-        InlineKeyboardButton(text="❓ 𝘾𝙤𝙢𝙢𝙖𝙣𝙙 𝙃𝙚𝙡𝙥 ❗️", callback_data="tiana_"),
+        InlineKeyboardButton(text="❓ 𝙱𝚕𝚘𝚘𝚍 𝙳𝚎𝚖𝚘𝚗 𝙰𝚛𝚝 ❗️", callback_data="tiana_"),
     ],
     [
-        InlineKeyboardButton(text="👩‍💻 𝙄𝙣𝙛𝙤", callback_data="about_"),
-        InlineKeyboardButton(text="𝘿𝙤𝙣𝙖𝙩𝙚 💰", url="https://t.me/PrincexDonateBot"),
+        InlineKeyboardButton(text="👩‍💻 𝙸𝚗𝚏𝚘", callback_data="about_"),
+        InlineKeyboardButton(text="𝚍𝚘𝚗𝚊𝚝𝚒𝚘𝚗 💰", url="https://t.me/KaNeKi354_bot"),
     ],
    [
-        InlineKeyboardButton(text="📇 𝙐𝙥𝙙𝙖𝙩𝙚𝙨", url=f"http://t.me/{UPDATE_CHANNEL}"),
-        InlineKeyboardButton(text="𝙎𝙪𝙥𝙥𝙤𝙧𝙩 🫂", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="📇 𝙳𝚎𝚖𝚘𝚗𝚒𝚌 𝚞𝚙𝚍𝚊𝚝𝚎", url=f"http://t.me/{UPDATE_CHANNEL}"),
+        InlineKeyboardButton(text="𝚂𝚙𝚒𝚛𝚒𝚝𝚞𝚊𝚕 𝚜𝚞𝚙𝚙𝚘𝚛𝚝 🫂", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [  
-        InlineKeyboardButton(text="➕️ 𝘼𝙙𝙙 𝙢𝙚 𝙩𝙤 𝙔𝙤𝙪𝙧 𝙂𝙧𝙤𝙪𝙥 ➕️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
+        InlineKeyboardButton(text="➕️ 𝚂𝚞𝚖𝚖𝚘𝚗 𝚖𝚎 ➕️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
     ], 
     
 ]
@@ -243,7 +243,7 @@ def start(update: Update, context: CallbackContext):
 × *Uᴘᴛɪᴍᴇ:* `{}`
 × `{}` *Uꜱᴇʀ, Aᴄʀᴏꜱꜱ* `{}` *Cʜᴀᴛꜱ.*
 ───────────────────
-× *Pᴏᴡᴇʀᴇᴅ Bʏ: Tᴇᴀᴍ Tɪᴀɴᴀ*
+× *Pᴏᴡᴇʀᴇᴅ Bʏ: @KaNeKi354_bot*
 ───────────────────""".format(
                     escape_markdown(first_name),
                     escape_markdown(uptime),
@@ -251,8 +251,8 @@ def start(update: Update, context: CallbackContext):
                     sql.num_chats()),
                 reply_markup=InlineKeyboardMarkup(
                  [
-                  [InlineKeyboardButton(text="📄 Source", callback_data="tiana_source"), 
-                   InlineKeyboardButton(text="🫂 Support", url=f"https://t.me/{SUPPORT_CHAT}")]
+                  [InlineKeyboardButton(text="🌖 𝙼𝙾𝙾𝙽 𝙱𝚁𝙴𝙰𝚃𝙷𝙸𝙽𝙶 𝙷𝙰𝚂𝙷𝙸𝚁𝙰", url="https://t.me/EagleEye0101"),
+                   InlineKeyboardButton(text="☀️ 𝚂𝚄𝙽 𝙱𝚁𝙴𝙰𝚃𝙷𝙸𝙽𝙶 𝙷𝙰𝚂𝙷𝙸𝚁𝙰", url="https://t.me/KaNeKi354_bot"),
                  ]
               ),
                 parse_mode=ParseMode.MARKDOWN,              
@@ -373,7 +373,7 @@ def tiana_callback_handler(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                     InlineKeyboardButton(text="➕ 𝘼𝙡𝙡 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨 ➕", callback_data="help_back"),
+                     InlineKeyboardButton(text="➕𝙱𝙻𝙾𝙾𝙳 𝙳𝙴𝙼𝙾𝙽 𝙰𝚁𝚃 ➕", callback_data="help_back"),
                     ],                           
                     [InlineKeyboardButton(text="𝙃𝙤𝙬 𝙏𝙤 𝙐𝙨𝙚 𝙈𝙚 ❓", callback_data="tiana_help"),
                      InlineKeyboardButton(text="𝙈𝙪𝙨𝙞𝙘 𝘽𝙤𝙩 🎧", callback_data="tiana_music")],
