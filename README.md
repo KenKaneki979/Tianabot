@@ -1,13 +1,13 @@
-<p align="center"><img src="https://telegra.ph/file/8edbffafac3e7f3e8ad10.jpg"></p>
+<p align="center"><img src="https://telegra.ph/file/04fd9ddc54896a0354f80.jpg"></p>
 
 <h4 align="center">
     A Telegram Powerfull Group Managment Bot written in Python using Pyrogram and Telethon.
 </h4>
 <p align="center">
-    <a href="https://t.me/Tiana_Prince_Bot"> Ready-To-Use Bot </a> •
+    <a href="https://t.me/Kaneki_189318_bot"> Ready-To-Use Bot </a> •
     <a href="http://www.prince-botz.tk/2022/02/tiana-bot.html?m=1"> Documentation </a> •
-    <a href="https://t.me/TianaxUpdates"> Update Channel </a> •
-    <a href="https://t.me/TianaxSupport"> Support Chat </a> 
+    <a href="https://t.me/anime8788"> Update Channel </a> •
+    <a href="https://t.me/anime8788"> Support Chat </a> 
 </p>
     
 # Tiana Bot
@@ -25,7 +25,7 @@
 - Smart Ai System
 - Easy To Use
 
-Can be found on Telegram as [@TianaRobot](https://t.me/TIANA_PRINCE_BOT)
+Can be found on Telegram as [@Kaneki_189318_bot](https://t.me/Kaneki_189318_bot)
 
 ## Deployment
 First Step!
@@ -82,17 +82,17 @@ $ bash start
 
 ## Contact & Support
 
-- [Telegram Channel](https://t.me/TianaxUpdates)
-- [Telegram Support Group](https://t.me/TianaxSupport)
-- [Contact Owner](https://t.me/PrincexAssistantBot)
+- [Telegram Channel](https://t.me/anime8788)
+- [Telegram Support Group](https://t.me/anime8788)
+- [Contact Owner](https://t.me/KaNeKi354_bot)
 
 ## License
 
-Distributed under the [GNU General Public License v3.0 License.](https://github.com/Prince-Botz/TianaBot/blob/main/LICENSE) See `LICENSE.md` for more information.
+
 
 ## Acknowledgements
 
-Special thanks to these amazing projects/people which/who help power Tiana Bot:
+Special thanks to these amazing projects/people which/who help power demon nezuko Bot:
 
-- [Prince](https://t.me/NoobxCoder) 
-- [Blaze](https://t.me/PiroxPower)
+- [kaneki](https://t.me/KaNeKi354_bot) 
+
