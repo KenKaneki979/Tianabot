@@ -1,6 +1,6 @@
 {
-      "name": "Tiana Bot",
-      "logo": "https://telegra.ph/file/fae3dd2a2c6e491e4893e.jpg",
+      "name": "Demon Nezuko",
+      "logo": "https://telegra.ph/file/04fd9ddc54896a0354f80.jpg",
       "description": "A Telegram Powerfull Group Managment Bot written in Python using Pyrogram and Telethon",
       "keywords": [
          "telegram",
@@ -11,7 +11,7 @@
          "tianabot",
          "telegram"
       ],   
-   "repository": "https://github.com/Prince-Botz/TianaBot",
+   "repository": "https://github.com/KenKaneki979/TianaBot",
    "addons": [
       {
          "options": {
